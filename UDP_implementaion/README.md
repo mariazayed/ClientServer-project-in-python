@@ -39,6 +39,8 @@ UDP or User Datagram Protocol is connection-less protocol which is suitable for 
 6. #### Close the Socket:<br>
     ```client_socket.close()``` This line closes the socket and terminates the proces.
     
+
+![a](https://user-images.githubusercontent.com/27064594/53013506-a1505280-344e-11e9-95c7-ac434688941e.PNG)
     
     
     
@@ -70,3 +72,6 @@ UDP or User Datagram Protocol is connection-less protocol which is suitable for 
         This is done by a ```swapcase()``` function in python. This method returns a copy of the string in which all the case-based characters have had their case swapped.
 7. #### Send the response message:<br>
 In this step, the response message is ready to send. The server sends the response message to the *address* variable that received from ```recvfrom()``` function.
+
+![b](https://user-images.githubusercontent.com/27064594/53013507-a1e8e900-344e-11e9-9f38-b60d9896fa3d.PNG)
+

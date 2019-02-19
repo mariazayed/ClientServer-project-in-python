@@ -28,6 +28,10 @@ The TCP or Transmission Control Protocol is a connection-oriented protocol. It d
 7. #### Close the socket:<br>
     ```client_socket.close()``` 
     This line closes the socket and terminates the process
+    
+![c](https://user-images.githubusercontent.com/27064594/53013428-7960ef00-344e-11e9-8ab7-71622099fa05.PNG)
+
+
 
 ### Server implementation steps:
 #### Steps 1,2, and 3 same as TCP client implementation.
@@ -61,3 +65,5 @@ The TCP or Transmission Control Protocol is a connection-oriented protocol. It d
 
 8.	#### Close the connection:
     When communication with a client is finished, the connection needs to be cleaned up using **close()** function. To ensure that           close() is always called, even in the event of an error, a ```try-finally``` block is used
+
+![d](https://user-images.githubusercontent.com/27064594/53013452-84b41a80-344e-11e9-9b07-779d6788f35c.PNG)
